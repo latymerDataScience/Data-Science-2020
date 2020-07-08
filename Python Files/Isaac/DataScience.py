@@ -36,7 +36,7 @@
 #Modules
 import pandas as pd #Pandas Module
 import re #Regular Expressions Module
-import time #Time modile
+import time #Time module
 import sys #System module
 
 #CONSTANT DEFINITIONS
