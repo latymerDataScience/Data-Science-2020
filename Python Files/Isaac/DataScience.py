@@ -125,7 +125,7 @@ class DataSet:
                     except:
                         self.means[year][extraDataSection][attrib] = NOMEANCALC
 
-    #Gets the mean values for each attribute in each Dataset in the datalist
+    #Gets the median values for each attribute in each Dataset in the datalist
     def getMedians(self):
         for year in self.years:
             self.medians[year] = {}
