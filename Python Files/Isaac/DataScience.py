@@ -132,7 +132,7 @@ class DataSet:
             for extraDataSection in self.extraDataSections:
                 self.medians[year][extraDataSection] = {}
                 for attrib in self.attributes[extraDataSection]:
-                    #If the mean can't be calculated, the NOMEANCALC flag is set
+                    #If the median can't be calculated, the NOMEANCALC flag is set
                     try:
                         self.medians[year][extraDataSection][attrib] = self.dataList[year][extraDataSection][attrib].median(axis = 0)
                     except:
