@@ -12,7 +12,7 @@
 #Current length: 374 lines
 #
 #This code is set out with comments throughout to describe what is happening through the program. 
-#I have used various other modules - they all come with the standard python interpretter, so no install is required
+#I have used various other modules - they all come with the standard python interpreter, so no install is required
 #If you have any questions, feel free to raise an issue
 #
 #
